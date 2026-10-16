@@ -1,0 +1,147 @@
+/*CSS*/
+
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 100%;
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 36px;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.logo{
+    
+}
+
+
+.navbar ul {
+    display: flex;
+    flex-direction:row;
+    gap: 32px;
+    list-style-type: none;
+}
+
+.navbar li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.landing-page{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+
+.hero-text{
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 512px;
+    position: relative;
+}
+
+.categories{
+    margin-bottom: 48px;
+}
+
+.categories-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-card{
+    width: 176px;
+    height: auto;
+}
+
+.featured-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.featured-product-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #1238ED;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0d2bb5;
+}
+
+.featured-product-text{
+    flex: 1;
+}
+
+.trending{
+    margin-bottom: 48px;
+}
+
+.footer{
+    margin-top: 64px;
+}
+.footer-element{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.footer-icon img{
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.footer p{
+    text-align: center;
+    margin-bottom: 40px;
+}
